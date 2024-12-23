@@ -1,6 +1,7 @@
 //Variable name can contain letters,numbers,_,$
 //Start with letter,_,$
 //case-sensitive
+//Dont use keywords as variable names
 
 let name; //Undefined
 console.log(name);
@@ -34,6 +35,21 @@ let firstName = "Shiva"
 let first_name = "Shiva"
 
 
+//let vs const vs var
+let city = "Hyderabad";
+let pincode;
+pincode = 500072;
+
+var number = 1;
+var counter;
+counter = 10;
+
+//must assign the value at the time of delcaration
+const pi = 3.14;
+//Reassignment not possible
+// pi = 4; Not possible
+
+console.log(city,pincode,number,pi,counter);
 
 
 
